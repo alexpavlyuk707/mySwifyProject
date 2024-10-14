@@ -8,12 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let name = "Aleksey"
+    let lastName = "Pavlyuk"
+    
+    var fullName: String {
+        "\(name) \(lastName)"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    print("I'm \(fullName), and I created my first app.")
+        // adding commits to check print result
+        
     }
-
-
 }
 
+
+
+   
