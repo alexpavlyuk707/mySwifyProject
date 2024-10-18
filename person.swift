@@ -14,6 +14,7 @@ class person {
     
     var fullName: String {
         "\(name) \(lastName)"
-        
     }
 }
+
+

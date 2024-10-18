@@ -16,11 +16,13 @@ class ViewController: UIViewController {
         "\(name) \(lastName)"
     }
     
+    let person = "Aleksey " + "Pavlyuk"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     print("I'm \(fullName), and I created my first app.")
-        // adding commits to check print result
+    print(person)
         
     }
 }
