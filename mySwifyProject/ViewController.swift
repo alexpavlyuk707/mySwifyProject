@@ -16,12 +16,14 @@ class ViewController: UIViewController {
         "\(name) \(lastName)"
     }
     
-    let person = "Aleksey Pavlyuk"
+    let person = Person(name: "Aleksey", lastName: "Pavlyuk")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    print(person)
+        
+        
+        print(person.fullName)
         
     }
 }
