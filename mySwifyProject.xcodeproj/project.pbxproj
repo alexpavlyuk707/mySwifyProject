@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E543C1032CBDC5FD007A31B4 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C1022CBDC5FD007A31B4 /* person.swift */; };
+		E562F4882CEAF6B60014BEFF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562F4872CEAF6B60014BEFF /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E543C0CA2CBDB827007A31B4 /* mySwifyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySwifyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543C1022CBDC5FD007A31B4 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		E562F4872CEAF6B60014BEFF /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,6 +52,7 @@
 		E543C0C12CBDB827007A31B4 = {
 			isa = PBXGroup;
 			children = (
+				E562F4872CEAF6B60014BEFF /* Helper.swift */,
 				E543C1022CBDC5FD007A31B4 /* person.swift */,
 				E543C0CC2CBDB827007A31B4 /* mySwifyProject */,
 				E543C0CB2CBDB827007A31B4 /* Products */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E543C1032CBDC5FD007A31B4 /* person.swift in Sources */,
+				E562F4882CEAF6B60014BEFF /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
