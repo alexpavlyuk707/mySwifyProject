@@ -9,35 +9,30 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let name = "Aleksey"
-    let lastName = "Pavlyuk"
-    
     let helper = Helper()
-    
-    var fullName: String {
-        "\(name) \(lastName)"
-    }
-    
-    let person = Person(name: "Aleksey", lastName: "Pavlyuk")
-    
-    let personOne = Person(name: "John", lastName: "Smith")
-    let personTwo = Person(name: "Jane", lastName: "Doe")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let personOne = Person(name: "Alex", lastName: "Pavlyuk")
+        let personTwo = Person(name: "John", lastName: "Doe")
+        let personThree = Person(name: "John", lastName: "Lenon")
+ 
+        
         helper.addPerson(personOne)
         helper.addPerson(personTwo)
+        helper.addPerson(personThree)
         
         let names = helper.getPeople()
         
         for person in names {
-          print("\(person.name) \(person.lastName)")
-        }
+          print("\(person)")
+        
         
         print(person.fullName)
         
     }
+  }
 }
 
 
