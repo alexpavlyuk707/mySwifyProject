@@ -7,17 +7,17 @@
 
 import Foundation
 
-class Helper {
+class Users {
     
-    private var people: [Person] = []
+    private var users: [User] = []
     
     
-    func addPerson(_ person: Person) {
-        people.append(person)
+    func addUser(_ user: User) {
+        users.append(user)
     }
     
-    func getPeople() -> [Person] {
-        people
+    func getUsers() -> [User] {
+        users
     }
 }
 

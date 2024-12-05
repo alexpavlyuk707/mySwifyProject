@@ -9,31 +9,57 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let helper = Helper()
+    let helper = Users()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let personOne = Person(name: "Alex", lastName: "Pavlyuk")
-        let personTwo = Person(name: "John", lastName: "Doe")
-        let personThree = Person(name: "John", lastName: "Lenon")
- 
+    let userOne = User(
         
-        helper.addPerson(personOne)
-        helper.addPerson(personTwo)
-        helper.addPerson(personThree)
+        name: "Alex",
+        lastName: "Pavlyuk",
+        age: 20,
+        email: "alexPi@gmail.com",
+        logIn: "Anakonda",
+        password: 12345
         
-        let names = helper.getPeople()
+        )
         
-        for person in names {
-          print("\(person)")
+    let userTwo = User (
+            
+        name: "John",
+        lastName: "Smith",
+        age: 45,
+        email: "johnroot@icloud.com",
+        logIn: "Massachussets007",
+        password: 161624
         
+        )
+
+    let userThree = User (
+            
+        name: "Nino",
+        lastName: "Katamadze",
+        age: 38,
+        email: "ninokata@gmail.com",
+        logIn: "Katamadze1818",
+        password: 111888
         
-        print(person.fullName)
+        )
+
+        helper.addUser(userOne)
+        helper.addUser(userTwo)
+        helper.addUser(userThree)
         
-    }
+    let users = helper.getUsers()
+        
+    for user in users {
+        
+        print("Name: \(user.name), Last Name: \(user.lastName), Age: \(user.age), Email: \(user.email)")
+        
+        }
+     }
   }
-}
 
 
 
