@@ -55,7 +55,14 @@ class ViewController: UIViewController {
         
     for user in users {
         
-        print("Name: \(user.name), Last Name: \(user.lastName), Age: \(user.age), Email: \(user.email)")
+    print("""
+        Name: \(user.name)
+        Last Name: \(user.lastName)
+        Age: \(user.age)
+        Email: \(user.email)
+        LogIn: \(user.logIn)
+        Password: \(user.password)
+        """)
         
         }
      }
