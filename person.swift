@@ -7,14 +7,25 @@
 
 import Foundation
 
+
+struct Person {
+    
+    let name: String
+    let lastName: String
+    let age: Int
+    let email: String
+    
+    var fullName: String {
+        "\(name) \(lastName)"
+    }
+    
+}
+
 struct User {
     
-    var name: String
-    var lastName: String
-    var age: Int
-    var email: String
-    var logIn: String
-    var password: Int
+    let logIn: String
+    let password: Int
+    let person: Person
     
 }
     
