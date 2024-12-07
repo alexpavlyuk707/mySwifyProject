@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         
     let userThree = User(
             
-        logIn: "John1999",
+        logIn: "Michael1999",
         password: 16161616,
                 
         person: Person(
